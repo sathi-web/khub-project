@@ -1,0 +1,551 @@
+@media(max-width:575.98px){
+
+/* ----------navbar part start----------- */
+#navbar{
+    background-color: blueviolet;
+    padding: 25px 10px;
+}    
+.nav-wrapper {
+    flex-direction: row;
+    position: relative;
+    padding: 0 10px;
+}
+.menu {
+    display: none;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.menu.toggle{
+    position: absolute;
+    display: flex;
+    top: 60px;
+    right: 10px;
+    background-color: blueviolet;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: all linear 0.3s;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.menu ul {
+    flex-direction: column;
+    row-gap: 25px;
+    text-align: center;
+    
+}
+/* ------------banner part start-------- */
+
+.banner-content h1 {
+    font-size: 25px;
+}
+.banner-content h2 {
+    font-size: 12px;
+}
+.banner-content p {
+    font-size: 10px;
+}
+/* ----------service part start ------- */
+.service-hadding{
+    padding: 0 10px;
+}
+.service-hadding h1 {
+    font-size: 17px;
+    line-height: 22px;
+}
+.service-hadding p {
+    font-size: 10px;
+    line-height: 22px;
+}
+.service-hadding h3 {
+    font-size: 13px;
+}
+.image-item {
+    flex-direction: column;
+    row-gap: 25px;
+}
+.img-box {
+    width: 100%;
+}
+.img-box-img{
+    width: 100%;
+}
+.img-box p {
+    font-size: 10px;
+    padding:10px;
+}
+/* -----------instra tart start------------- */
+#insta {
+    background-color: blueviolet;
+    padding: 25px 0;
+}
+.common-hadding {
+    padding-bottom: 35px;
+    font-style: 16px;
+}
+.img-box p {
+    font-size: 10px;
+}
+.common-hadding::after {
+    width: 40px;
+    left: -58px;
+    background-color: #fff;
+    top: 9px;
+}
+
+.common-hadding::before {
+    width: 40px;
+    right: -58px;
+    background-color: #fff;
+    top: 9px;
+}
+
+.shots-wrapper {
+    flex-direction: column;
+}
+.shots-item {
+    width: 100%;
+    padding: 0px 0;
+}
+.shots-btn{
+    margin-top: 46px;
+}
+.shots-btn a {
+    border: 2px solid #fff;
+    color: #fff;
+}
+/* -------------journal-part start---------------  */
+.journal-wrapper{
+    flex-direction: column;
+}
+.journal-item-img img{
+    width: 100%;
+    padding: 10px 30px;
+}
+.journal-item {
+    background-color: #fff;
+    border: 3px solid #e3e3e3;
+    width: 100%;
+}
+/* ---------------about part start --------------- */
+.about-service{
+    flex-direction: column;
+}
+.about-item {
+    flex-direction: column;
+    row-gap: 30px;
+    width: 100%;
+    padding: 0 15px;
+}
+.service-part{
+    width: 100%;
+    padding: 15px;
+}
+.extra-item{
+    padding: 25px 0;
+    text-align: center;
+}
+.extra-item h6 {
+    font-size: 9px;
+    padding: 0 15px;
+}
+.extra-item p {
+    font-size: 10px;
+    padding: 15px 25px;
+}
+.about-main h1 {
+    color: red;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.about-main h1::after {
+    background-color: aqua;
+    left: 189px;
+}
+.service-item {
+    padding-left: 15px;
+}
+.text p {
+    padding-top:0;
+    font-size: 10px;
+}
+
+/* ---------------last part start --------------- */
+#last{
+    padding: 25px 0;
+}
+.main-item{
+    text-align: center;
+    flex-direction: column;
+    row-gap: 25px;
+    padding: 0 15px;
+}
+.item-start p{
+    width: 100%;
+    padding: 0 40px;
+}
+}
+.item-start{
+    border: 1px solid aqua;
+    padding: 10px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.item-start:hover{
+    box-shadow:10px 10px blueviolet;
+
+}
+
+/* ============small device================= */
+
+
+
+
+@media(min-width:576px) and (max-width:767.98px){
+    #navbar{
+        background-color:aqua;
+        padding: 25px 10px;
+        justify-content: space-between;
+    }
+    .menu ul li a {
+        color: red;
+        font-size: 14px;
+
+    }
+    #toggleMenu i {
+        display: none;
+    }
+    /* ------service part start-----------  */
+    .image-item {
+        row-gap: 30px;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .img-box {
+        width: 100%;
+        
+    }
+    .img-text{
+        text-align: center;
+    }
+    .shots-wrapper {
+        padding: 20px 0;
+    }
+    .shots-item {
+        width: 100%;
+        height: 517px;
+    }
+
+
+    /* ----------instra part start ------------ */
+    .about-service {
+        flex-direction: column;
+    }
+    .journal-item {
+        width: 100%;
+    }
+    .journal-item-img {
+        height: auto;
+    }
+    .journal-item-img img {
+        object-fit: cover;
+        width: 100%;
+    }
+    /* ---------last part start ------------ */
+    #last {
+        background-color: #fff;
+    }
+    .item-start {
+        border: 1px solid red;
+    }
+    .item-start h1 {
+        color: #000;
+    }
+    .item-start p {
+        color: #000;
+    }
+    .item-start h6 {
+        color: #000;
+    }
+    .main-item {
+        flex-direction: column;
+    }
+    .item-start {
+        padding: 30px 169px;
+        text-align: center;
+    }
+    
+
+}
+    /* --------------------medium-------------- */
+
+
+
+
+    @media(min-width:768px) and (max-width:991.98px){
+        #navbar {
+            background-color: #fff;
+            padding: 20px;
+        }
+        .menu ul li a {
+            color: blue;
+        }
+        #toggleMenu i {
+            display: none;
+        }
+        /* ----------------service--------------- */
+        .image-item {
+            row-gap: 30px;
+            flex-direction: column;
+            margin-top: 25px;
+        }
+        
+        #about {
+            padding: 20px 90px;
+        }
+        .img-box {
+            width: 100%;
+            height: auto;
+            
+        }
+        .img-text{
+            text-align: center;
+        }
+        .shots-wrapper {
+            padding: 20px 0;
+        }
+        .shots-item {
+            width: 100%;
+            height: 517px;
+        }
+
+
+
+        /* -------instra------------- */
+        .shots-item {
+            height: 100%;
+        }
+        .shots-item {
+            padding-top: px;
+        }
+        /* ---------------journal part---------------  */
+        .about-service {
+            flex-direction: column;
+        }
+        .journal-item {
+            width: 100%;
+        }
+        .journal-item-img {
+            height: auto;
+        }
+        .journal-item-img img {
+            object-fit: cover;
+            width: 100%;
+            padding: 15px;
+        }
+        #last {
+            background-color: #fff;
+        }
+        .item-start {
+            border: 1px solid red;
+        }
+        .item-start h1 {
+            color: #000;
+        }
+        .item-start p {
+            color: #000;
+        }
+        .item-start h6 {
+            color: #000;
+        }
+        .main-item {
+            flex-direction: column;
+        }
+        .item-start {
+            padding: 30px 169px;
+            text-align: center;
+        }
+
+
+        
+    }
+
+    /* ===============medium================ */
+
+    @media(min-width:992px) and (max-width:1199.98px){
+        #navbar {
+            background-color: gainsboro;
+            padding: 20px;
+        }
+        .menu ul li a {
+            color: green;
+        }
+        #toggleMenu i {
+            display: none;
+        }
+        /* --------------service--------------- */
+        .image-item {
+            row-gap: 30px;
+            flex-direction: column;
+            margin-top: 25px;
+        }
+        
+        #about {
+            padding: 20px 90px;
+        }
+        .img-box {
+            width: 100%;
+            height: auto;
+            
+        }
+        .img-text{
+            text-align: center;
+        }
+        .shots-wrapper {
+            padding: 20px 0;
+        }
+        .shots-item {
+            width: 100%;
+            height: 517px;
+        }
+        /* ------------------instra------------------ */
+        .shots-item {
+            height: 100%;
+        }
+        .shots-item {
+            padding-top: px;
+        }
+        /* ---------------journal part---------------  */
+        .about-service {
+            flex-direction: column;
+        }
+        .journal-item {
+            width: 100%;
+        }
+        .journal-item-img {
+            height: auto;
+        }
+        .journal-item-img img {
+            object-fit: cover;
+            width: 100%;
+            padding: 15px;
+        }
+        #last {
+            background-color: #fff;
+        }
+        .item-start {
+            border: 1px solid red;
+        }
+        .item-start h1 {
+            color: #000;
+        }
+        .item-start p {
+            color: #000;
+        }
+        .item-start h6 {
+            color: #000;
+        }
+        .main-item {
+            flex-direction: column;
+        }
+        .item-start {
+            padding: 30px 169px;
+            text-align: center;
+        }
+    }
+
+
+  
+/* ================== Extra Large device =============== */
+
+ @media(min-width:1200px) and (max-width:1399.98px){
+    #navbar {
+        background-color: gainsboro;
+        padding: 20px;
+    }
+    .menu ul li a {
+        color: black;
+    }
+    #toggleMenu i {
+        display: none;
+    }
+    /* --------------service--------------- */
+    .image-item {
+        row-gap: 30px;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    
+    #about {
+        padding: 20px 90px;
+    }
+    .img-box {
+        width: 100%;
+        height: auto;
+        
+    }
+    .img-text{
+        text-align: center;
+    }
+    .shots-wrapper {
+        padding: 20px 0;
+    }
+    .shots-item {
+        width: 100%;
+        height: 517px;
+    }
+     /* ------------------instra------------------ */
+     .shots-item {
+        height: 100%;
+    }
+    .shots-item {
+        padding-top: px;
+    }
+            /* ---------------journal part---------------  */
+            .about-service {
+                flex-direction: column;
+            }
+            .journal-item {
+                width: 100%;
+            }
+            .journal-item-img {
+                height: auto;
+            }
+            .journal-item-img img {
+                object-fit: cover;
+                width: 100%;
+                padding: 15px;
+            }
+            #last {
+                background-color: #fff;
+            }
+            .item-start {
+                border: 1px solid red;
+            }
+            .item-start h1 {
+                color: #000;
+            }
+            .item-start p {
+                color: #000;
+            }
+            .item-start h6 {
+                color: #000;
+            }
+            .main-item {
+                flex-direction: column;
+            }
+            .item-start {
+                padding: 30px 169px;
+                text-align: center;
+            }
+ }
+    
