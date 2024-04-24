@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ========navbar part start here========= */
 #navbar{
-    background-color: rgba(0, 0, 0, 0.389);
+    background-color: red;
     padding: 20px 0;
     position: absolute;
     width: 100%;
@@ -199,7 +199,7 @@ h1,h2,h3,h4,h5,h6,p{
     display: inline-block;
    
 }
-.common-hadding::after{
+.common-hadding h3::after{
     position: absolute;
     content: "";
     height: 2px;
@@ -262,8 +262,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ==============journal part start here======== */
 #journal{
-    padding-top: 80px;
-    padding-bottom: 83px;
+    padding-top: 80px 0;
 }
 #journal .common-hadding{
     color:#444;
